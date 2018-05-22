@@ -1,0 +1,175 @@
+
+body{
+	
+	background-color: #000066;
+	/*If we cannot find the helvetica font then we will use courier*/
+	font-family: helvetica,courier;
+	font-weight: bold;
+	color: white;
+}
+
+
+/*
+	If we want to select a certain block then we can give an identifier
+	we then select this identifier and give it syle-->
+*/
+h2{
+		font-size: 18pt;
+		
+		margin-bottom: 10px;
+		
+}
+
+
+
+.event-hour{
+	font-size: 10pt;
+	font-style: italic;
+		text-align:right;
+		margin-bottom: 15px;
+	
+}
+.event-date{
+		margin-top: 130px;
+	
+}
+
+
+
+
+
+
+
+/*Access the anchor items in the specific tile-list block*/
+.tile-list a{
+	color: white;
+	text-decoration:none;
+}
+
+
+
+.tile-list li{
+	margin-bottom:5px;
+	margin-left:10px;
+}
+
+/*Access the list items in the specific unordered list*/
+ul.tile-list li{
+	
+	
+	/*Bullet points style*/
+	list-style-type: disc;
+
+}
+
+/*Access the list items in the specific ordered list*/
+ol.tile-list li{
+	list-style-type: decimal;
+}
+
+
+
+
+
+
+
+.tile{
+	background-color: red;
+	
+	
+	width: 150px;  /*Controls the width of the content*/
+	height:  200px; /*Controls the height of the content*/
+	
+	margin: 5px;	/*Controls the distance of the block box and the outside elements*/
+	border: 20px solid cyan; /*Controls the border of the content box and then we give color*/
+	padding : 20px; /*Padding inside the box: (padding of the text to the inner box)*/
+	
+	
+	/*Dynamic webpage, Everything moves according to the size of the webpage*/
+	float:left;
+	background-color: blue;
+
+	
+	
+}
+
+/*Classes to use inside the tile class*/
+.green{
+	background-color: green;
+}
+.orange{
+	background-color: orange;
+}
+.pink{
+	background-color: pink;
+}
+
+.white{
+	background-color: white;
+}
+
+
+
+
+
+.cityImage{
+	background-image: url("images/redBackground.jpg");
+}
+
+
+
+
+/*An id style will have priority over a class style
+#block{
+	background-color: green;
+}
+
+*/
+
+#main-container{
+	
+	max-width: 900px;
+	
+	/*Center the container*/
+	margin: 0 auto;
+	
+	
+}
+
+
+.tile-double{
+	background-color: red;
+	width: 400px;
+	
+	
+}
+
+
+#span{
+	font-size:40pt;
+}
+
+#theTable
+{
+	margin:10px auto;
+	font-weight:normal;
+	
+	width:100%;
+}
+
+#theTable th{
+	border-bottom: 1px solid #F6F6F6;
+	padding:2px;
+	text-align:center;
+}
+#theTable td{
+	padding:2px;
+	text-align:center;
+}
+
+
+.char-total{
+		font-size: 25pt;
+		text-align: right;
+}
+

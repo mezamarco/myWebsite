@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+		
+		
+		<!-- Always reset the preset styles using our reset.css file-->
+		<link href = "reset.css" rel = "stylesheet">
+
+		<link href = "style.css" rel = "stylesheet">
+
+		
+		<title> My Cool Website</title>
+	</head>
+	
+	
+	<body>
+	
+		<!-- Include style tag to add CSS features, but this is not recommended
+			We should use an external file a  .css file>
+		<style>
+		body {
+				background-color: yellow;
+			}
+
+		</style>
+		-->
+	
+	
+		<div id = "main-container">
+		
+			<div class = "tile green">
+				<h2>Features </h2>
+				<ul class = "tile-list">
+					<li><a href = "page1.html">Link 1 </a></li>
+					<li><a href = "page2.html">Link 2 </a></li>
+					<li><a href = "page3.html">Link 3 </a></li>
+
+				</ul>
+			</div>
+			
+			<!-- id will always take priority of the CSS style-->
+			<div class = "tile orage">
+				<div >Important Interview</div>
+				<div class = "title event-hour">3:00 - 4:00</div>
+				<!-- span tag will select the part to have different style-->
+				<div class = "event-date">December <span id="span">15</span></div>
+
+			</div>
+			
+			<div class = "tile pink">
+				<h2>TODO</h2>
+				<ol class = "tile-list">
+					<li>Build Website</li>
+					<li>Build Apps</li>
+					<li>Build Games</li>
+
+				</ol>
+			</div>
+			
+			
+			<div class = "tile white cityImage">
+				<img src = "images/smallChart.png" height="175" width="150"/>
+				<div class = "char-total">4000</div> 
+				
+			</div>
+			
+			<div  class = "tile tile-double">
+				<table id= "theTable">
+					<thead>
+						<tr>
+							<th>User</th>
+							<th>Product</th>
+							<th>Score</th>
+						</tr>
+					</thead>
+					
+					
+					<tbody>
+						<tr>
+							<td>User 1</td>
+							<td>Nice App</td>
+							<td>45.5</td>
+						</tr>
+						<tr>
+							<td>User 1</td>
+							<td>Nice App</td>
+							<td>45.5</td>
+						</tr>
+						<tr>
+							<td>User 1</td>
+							<td>Nice App</td>
+							<td>45.5</td>
+						</tr>
+					</tbody>
+				
+				</table>
+			
+			</div>
+		
+		
+			<div class = "tile orange">
+				<h2>Order Pizza</h2>
+				<form>
+						
+						<select>
+							<option>Pizza 1</option>
+							<option>Pizza 2</option>
+							<option>Pizza 3</option>	
+						</select>
+					
+					
+					
+						<input type = "number" value = "1" >
+					
+						<input type = "text" placeholder = "Enter Comments" >
+					
+					
+						<button>Order</button>
+					
+				</form>
+			</div>		
+
+
+			
+			
+			
+			
+
+			<div class = "tile pink">
+				<div>Marco</div>
+				<div>26</div>
+			</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		</div>
+	</body>	
+</html>

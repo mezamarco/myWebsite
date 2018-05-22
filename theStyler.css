@@ -1,0 +1,114 @@
+body{
+	
+	background-image:url("BackgroundImages/dark.jpg");
+	font-family: Times New Roman, Arial;
+	color:green;
+}
+
+#header{
+	font-size:40pt;
+	font-style: normal;
+	font-family: Times New Roman, Arial;
+	margin-top:1px;
+	text-align: center;	
+	border: 5px solid #092589; /*Controls the border of the content box and then we give color*/
+	background-color: #153972;
+	color: white;
+	
+}
+
+h2{
+		font-size: 18pt;
+		padding-top : 5px;	
+		padding-bottom : 5px;
+
+}
+
+img{
+		height: 30%;
+		width: 40%;
+		margin: 0px auto;
+		
+}
+
+#main-container{
+	max-width: 900px;
+
+	/*Center the container*/
+	margin: 0 auto;
+	text-align:center
+}
+
+
+
+.tile{
+
+	margin: 30px;
+	border: 10px solid green;
+	float:left;
+	background-color: lightblue;
+	padding: 20px;
+	width: 300px;  /*Controls the width of the content*/
+	height:  225px; /*Controls the height of the content*/
+
+}
+.tile img{
+	
+	height: 15%;
+		width: 60%;
+		margin: 0px auto;
+		    vertical-align: middle;
+
+
+	
+}
+.tile h3{
+	
+	font-size:20pt;
+	font-style:bold;
+	color:black;
+	text-align:center;
+	padding-top:10px;
+
+}
+.tile a{
+	
+	font-size:14pt;
+	font-style:bold;
+	color:blue;
+	
+
+}
+
+#footer{
+	font-size:40pt;
+	font-style: normal;
+	font-family: Times New Roman, Arial;
+	text-align: center;	
+	
+	width:100%;
+	border: 5px solid #092589; /*Controls the border of the content box and then we give color*/
+	background-color: #153972;
+	color: white;
+	float: right;
+	
+}
+#theTable{
+	text-align:center;
+	color: green;
+	padding-top:20px;
+}
+#centerIt{
+	text-align:center;
+	padding-top:15px;
+
+
+}
+
+.gif img{
+	
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    text-align:center;
+}
