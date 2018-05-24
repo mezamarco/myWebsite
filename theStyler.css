@@ -49,8 +49,8 @@ img{
 	background-color: lightblue;
 	padding: 20px;
 	width: 300px;  /*Controls the width of the content*/
-	height:  225px; /*Controls the height of the content*/
-	border-radius:10px;
+		height:  225px; /*Controls the height of the content*/
+	    border-radius:10px;
 
 }
 .tile img{
